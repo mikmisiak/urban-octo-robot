@@ -8,7 +8,7 @@
     border: 10px groove rgb(205, 65, 10);
     border-radius: 20px;
 }
-
+*/
 ul{
     display: flex;
     list-style: none;
@@ -17,7 +17,7 @@ ul{
     align-content: center;
 }
 
-*/
+
 * {
   margin: 0;
   padding: 0;
