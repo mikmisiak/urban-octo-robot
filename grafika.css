@@ -1,6 +1,6 @@
 
 
-header{
+/*header{
     background-color: rgb(255, 174, 0);
     color: rgb(0, 0, 0);
     padding: 40x;
@@ -25,7 +25,7 @@ ul{
 body {
   background: rgb(123, 158, 158);
 }
-
+*/
 
 #hexGrid {
 display: flex;
