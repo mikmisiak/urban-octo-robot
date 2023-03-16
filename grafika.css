@@ -1,6 +1,6 @@
 
 
-/*header{
+header{
     background-color: rgb(255, 174, 0);
     color: rgb(0, 0, 0);
     padding: 40x;
@@ -8,7 +8,7 @@
     border: 10px groove rgb(205, 65, 10);
     border-radius: 20px;
 }
-*/
+/*
 ul{
     display: flex;
     list-style: none;
@@ -16,17 +16,22 @@ ul{
     justify-content: space-between;
     align-content: center;
 }
+*/
 
 
-* {
+
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(18deg, #e37682, #e39207);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   margin: 0;
   padding: 0;
-}
-body {
-  background: rgb(123, 158, 158);
-}
-
-
+  }
+  
 #hexGrid {
 display: flex;
 flex-wrap: wrap;
@@ -240,18 +245,7 @@ opacity: 1;
 }
 
 
-
 /*
-body {
-    height: 100vh;
-    overflow: hidden;
-    background: linear-gradient(18deg, #e37682, #e39207);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
 .klasa1{
     background-color: currentColor rgb(255, 255, 255);
 
