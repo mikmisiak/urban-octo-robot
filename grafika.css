@@ -1,22 +1,14 @@
 
 
 header{
-    background-color: rgb(255, 174, 0);
+    
     color: rgb(0, 0, 0);
-    padding: 40x;
-    margin: 40px;
-    border: 10px groove rgb(205, 65, 10);
-    border-radius: 20px;
+    
+    margin-left: 30px;
+
 }
-/*
-ul{
-    display: flex;
-    list-style: none;
-    gap: 100px;
-    justify-content: space-between;
-    align-content: center;
-}
-*/
+    
+
 
 
 
