@@ -24,10 +24,15 @@ header{
 
 
   
+
+
+
+
+
+
  #hexGrid {
 display: flex;
 flex-direction: row;
-justify-content:space-around;
 flex-wrap: wrap;
 width: 90%;
 margin: 0 auto;
