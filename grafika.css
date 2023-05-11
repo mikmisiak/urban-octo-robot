@@ -1,7 +1,5 @@
-
-
 header{
-    
+    background-color: #ebaf56;
     color: rgb(0, 0, 0);
     display: flex;
     margin-left: 30px;
@@ -9,32 +7,24 @@ header{
     justify-content:center;
 }
     
-
-
-
-
-
  body {
   background: linear-gradient(18deg, #e37682, #e39207);
    flex-wrap: wrap;
-
   margin: 100;
   scroll-behavior: smooth; 
   } 
 
-
+footer{
+  background-color: #83e376;
+  justify-content: center;
   
-
-
-
-
+  }
 
 
  #hexGrid {
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
-width: 90%;
+width: 80%;
 margin: 0 auto;
 overflow: hidden;
 font-family: sans-serif;
@@ -226,7 +216,7 @@ opacity: 1;
   font-size: 12px;
 }
 .hex {
-  width: 50%; /* = 100 / 3 */
+  width: 50%; /* = 100 / 2 */
 }
 .hex:nth-child(3n+3){ /* first hexagon of even rows */
   margin-left:25%;  /* = width of .hex / 2  to indent even rows */
