@@ -3,20 +3,18 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     background-color: #ffffff;
-    margin: 0px;
+    margin:0px;
 }
 
 header img{
     width:130px;
     height:30px;
-    margin-left:400px;
-    margin-top:15px;
 }
 
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pasek1{
@@ -41,33 +39,20 @@ header{
     color:darkblue;
 }
 
-.napis{
-    font-size:medium;
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    color:white;
-}
-
-
-.napis2{
-    padding-left:400px;
-}
-
 .pasek2{
-    height:80px;
-    width: 100%;
+    height:75px;
     display:flex;
-    flex-direction:column;
     justify-content: space-around;
+    flex-direction:row;
     background-color:#000040;
-    margin-right:600px;
+    align-items: center;
 }
 
 .pasek2 a{
     font-size:medium;
     display:flex;
     align-items:center;
+    flex-direction: row;
     text-decoration:none;
     color:white;
 }
@@ -75,6 +60,37 @@ header{
 .pasek2 a:hover{
     color:blue;
 }
+
+.items1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.items1 a{
+    padding-right:20px;
+}
+
+
+.items2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pasek3{
     font-size:small;
