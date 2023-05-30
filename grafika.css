@@ -53,12 +53,14 @@ main{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin-left:250px;
 }
 
 main h1{
   display: flex;
   word-wrap: normal;
-  flex-wrap:wrap
+  flex-wrap:wrap;
+  margin-left:250px;
 }
 
 .gallery {
